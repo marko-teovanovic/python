@@ -1,6 +1,4 @@
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
-#multiple objects from list
-print(bicycles[1])
-print(bicycles[3])
-#accesing last object in list
-print(bicycles[-1])
+#creating a message from object from list 
+message = f"My first bicycle was a {bicycles[3].title()}."
+print(message)
