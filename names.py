@@ -1,4 +1,7 @@
 names = ['Predrag', 'Marija', 'Jelena']
-print(names[0])
-print(names[1])
-print(names[2])
+message1 = f"Hello my dear friend, {names[0].title()}."
+message2 = f"Hello my dear friend, {names[1].title()}."
+message3 = f"Hello my dear friend, {names[2].title()}."
+print(message1)
+print(message2)
+print(message3)
