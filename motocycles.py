@@ -17,3 +17,7 @@ print(motorcycles)
 popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycle)
+#Example of using a pop() method.
+motorcycles = ['honda', 'suzuki', 'harley davidson', 'ducati']
+last_owned = motorcycles.pop()
+print(f"The last motorcycle I owned was {last_owned.title()}.")
