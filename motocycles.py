@@ -21,3 +21,6 @@ print(popped_motorcycle)
 motorcycles = ['honda', 'suzuki', 'harley davidson', 'ducati']
 last_owned = motorcycles.pop()
 print(f"The last motorcycle I owned was {last_owned.title()}.")
+#Using pop() to remove an item from any position in a list. pop(number) - index of a item in list we want to remove.
+first_owned = motorcycles.pop(1)
+print(f"The first motorcycle I owned was a {first_owned.title()}.")
