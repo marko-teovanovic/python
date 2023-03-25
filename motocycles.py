@@ -1,6 +1,4 @@
 motorcycles = ['honda', 'yamaha', 'suzuki']
-print(motorcycles)
-
-#changing place of element in list, [number] - selecting place for our element in list 
-motorcycles[0] = 'ducati'
+#Adding element in list with 'append' - adds an element on end of a list
+motorcycles.append('ducati')
 print(motorcycles)
