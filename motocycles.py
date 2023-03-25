@@ -11,3 +11,9 @@ print(motorcycles)
 #Removing elements from list. [number] - determines witch element we want to remove
 del motorcycles[0]
 print(motorcycles)
+#Removing elements from list with pop() method.
+motorcycles = ['honda', 'suzuki', 'harley davidson']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
