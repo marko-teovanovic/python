@@ -6,6 +6,6 @@ for magician in magicians:
 	print("Thank you, everyone. That was a great magic show!")
 
 #What happens if you forget to indent the line afte for statment
-magicians = ['david', 'carolina', 'alice']
-for magician in magicians:
+#magicians = ['david', 'carolina', 'alice']
+#for magician in magicians:
 #print(magician) ---> #IndentationError: expected an indented block after 'for' statement on line 10
