@@ -35,3 +35,8 @@ too_expensive = 'suzuki'
 motorcycles.remove(too_expensive)
 print(motorcycles)
 print(f"\nA {too_expensive.title()} is too expensive for me.")
+print('----------------------------------------------------------------------------')
+#Avoiding index errors when working with lists
+motorcycles = ['honda', 'suzuki', 'harley davidson', 'ducati']
+#print(motorcycles[4]) - IndexError: list index out of range
+print(motorcycles[-1]) #-1 always return last item in a list
