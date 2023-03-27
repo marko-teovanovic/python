@@ -12,7 +12,7 @@ print(cars)
 cars = ['bmw', 'audi', 'opel', 'toyota', 'ford', 'subaru']
 print("Here is the original list:")
 print(cars)
-print("nHere is the sorted list:")
+print("\nHere is the sorted list:")
 print(sorted(cars))
 
 #.reverse() function
@@ -21,3 +21,6 @@ print(cars)
 
 cars.reverse()
 print(cars)
+#Lenght of list 
+cars = ['bmw', 'audi', 'opel', 'toyota', 'ford', 'subaru']
+len(cars)
