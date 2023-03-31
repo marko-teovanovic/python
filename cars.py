@@ -1,26 +1,10 @@
-#List sort .sort()
+#Learning IF statment
 cars = ['bmw', 'audi', 'opel', 'toyota', 'ford', 'subaru']
-cars.sort()
-print(cars)
+for car in cars:
+	if car == 'bmw':
+		print(car.upper())
+	else:
+		print(car.title())
+print("\nTest's to examine the conditions:")
 
-#Reverse sort
-cars = ['bmw', 'audi', 'opel', 'toyota', 'ford', 'subaru']
-cars.sort(reverse=True)
-print(cars)
 
-#.sorted() function
-cars = ['bmw', 'audi', 'opel', 'toyota', 'ford', 'subaru']
-print("Here is the original list:")
-print(cars)
-print("\nHere is the sorted list:")
-print(sorted(cars))
-
-#.reverse() function
-cars = ['bmw', 'audi', 'opel', 'toyota', 'ford', 'subaru']
-print(cars)
-
-cars.reverse()
-print(cars)
-#Lenght of list 
-cars = ['bmw', 'audi', 'opel', 'toyota', 'ford', 'subaru']
-len(cars)
