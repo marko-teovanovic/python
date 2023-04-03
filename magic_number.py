@@ -5,3 +5,4 @@ if answer != 42:
 age = 19
 if age <21:
 	print("\nYou can't buy a drink!")
+#You also can use '<,>,<=,>='
