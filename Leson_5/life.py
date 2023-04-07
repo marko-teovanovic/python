@@ -1,4 +1,5 @@
-age = 65
+
+age = 13
 if age <= 2:
 	print("It's a baby!")
 elif age == 2 or age < 4:
