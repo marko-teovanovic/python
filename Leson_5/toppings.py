@@ -6,3 +6,12 @@ for requested_topping in requested_topping:
 	else:
 		print(f"Adding {requested_topping}")
 print("\nFinished making your pizza!")
+print('\n')
+#Checking if a list is empty
+requested_topping = []
+if requested_topping:
+	for requested_topping in requested_topping:
+		print(f"Adding {requested_topping}.")
+	print("\nFinished making your pizza!")
+else:
+	print("Are you shure you want plain pizza?")
