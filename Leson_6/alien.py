@@ -5,3 +5,10 @@ print(alien_0['points'])
 #Accessing values in a dictionary
 new_points = alien_0['points'] #<= pulls value associated with the key 'points'
 print(f"You just earned {new_points} points!")
+print('\n')
+#Adding new key-value pairs in a dictionary
+alien_1 = {'color': 'green', 'points': 5}
+print(alien_1)
+alien_1['x_position'] = 0
+alien_1['y_position'] = 25
+print(alien_1)
