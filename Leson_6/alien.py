@@ -12,3 +12,14 @@ print(alien_1)
 alien_1['x_position'] = 0
 alien_1['y_position'] = 25
 print(alien_1)
+print('\n')
+#Empty dictionary
+alien_2 = {}
+alien_2['color'] = 'green'
+alien_2['points'] = '5'
+print(alien_2)
+#Modifying values 
+alien_3 = {'color': 'green'}
+print(f"The alien is {alien_3['color']}.")
+alien_3['color'] = 'yellow' #<=== associate different color to alien
+print(f"The alien is now {alien_3['color']}.")
