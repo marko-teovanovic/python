@@ -41,4 +41,4 @@ print('\n')
 alien_4 = {'color': 'green', 'points': 5}
 print(alien_4)
 del alien_4['points'] #<== permanently remove key-value pair
-print(alien_4)
+print(alien_4)print(alien_4)print(alien_4)
