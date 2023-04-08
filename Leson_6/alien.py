@@ -23,3 +23,16 @@ alien_3 = {'color': 'green'}
 print(f"The alien is {alien_3['color']}.")
 alien_3['color'] = 'yellow' #<=== associate different color to alien
 print(f"The alien is now {alien_3['color']}.")
+#Moving alien
+alien_moving = {'x_position': 0, 'y_position': 25, 'speed': 'medium'}
+print(f"Original position: {alien_moving['x_position']}")
+#Move the alien to the righ.
+#Determine how far to move the alien based on its curren speed.
+if  alien_moving['speed'] == 'slow':
+	x_increment = 1
+elif alien_moving['speed'] == 'medium':
+	x_increment = 2
+else:
+	x_increment = 3
+alien_moving['x_position'] = alien_moving['x_position'] + x_increment
+print(f"New position: {alien_moving['x_position']}.")
