@@ -36,3 +36,9 @@ else:
 	x_increment = 3
 alien_moving['x_position'] = alien_moving['x_position'] + x_increment
 print(f"New position: {alien_moving['x_position']}.")
+print('\n')
+#Removing key-value
+alien_4 = {'color': 'green', 'points': 5}
+print(alien_4)
+del alien_4['points'] #<== permanently remove key-value pair
+print(alien_4)
