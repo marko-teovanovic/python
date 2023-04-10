@@ -10,3 +10,9 @@ while current_number < 10:
     if current_number % 2 == 0:
         continue
     print(current_number)
+#Avoiding infinite loops
+x = 1
+while x <= 5:
+    print(x)
+    x += 1 #Whitout += 1 while loop will run forever
+
