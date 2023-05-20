@@ -1,8 +1,8 @@
 # python
 On the course i completed, in cooperation with Vidoje Zeljic (space for link of his profile),
-I learnet the following abouth python:
+I learned the following about python:
 
-Introduction to Python and installation of Python and all necessary thing to work.
+Introduction to Python and installation of Python and all necessary programs and ad-ons to work.
 Variables:
 ```message = "Python course!"
 print(message)``` 
